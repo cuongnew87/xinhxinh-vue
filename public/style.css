@@ -1,0 +1,405 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+ul{
+	list-style: none;
+}
+
+.cursor-pointer{
+	cursor: pointer;
+}
+
+.flex{
+	display: flex;
+}
+
+.block{
+	display: block;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.text-uppercase{
+	text-transform: uppercase;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.white-text{
+	color: white;
+}
+
+.header .title p, .menu ul li a{
+	font-size: 14px;
+}
+
+.header .logo img, .body{
+	margin: auto;
+}
+
+.header{
+	padding: 50px 0;
+}
+
+.header .logo{
+	margin-bottom: 15px;
+}
+
+.header .title p{
+	color: #888;
+}
+
+.menu{
+	border-top: 1px solid rgba(0,0,0,.07);
+	border-bottom: 1px solid rgba(0,0,0,.07);
+	margin-bottom: 50px;
+}
+
+.menu ul{
+	justify-content: center;
+}
+
+.menu ul li{
+	margin: 0 10px;
+	padding: 15px 0;
+	display: inline-block;
+}
+
+.hover-blue:hover, .view-all:hover{
+	color: #2e64e6;
+}
+
+.hover-underline:hover{
+	text-decoration: underline;
+}
+
+.body{
+	width: 1000px;
+	height: auto;
+}
+
+.center-background{
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+}
+
+.top-images{
+	margin-bottom: 50px;
+}
+
+.top-images .left-image{
+	width: 480px;
+	height: 420px;
+	margin-right: 20px;
+	background-image: url(https://xinhxinh.vn/wp-content/uploads/2021/12/bi-quyet-cham-soc-toc-bong-benh_9.jpg);
+}
+
+.top-images .left-image:hover, .right-images .upper-image:hover, .down-images .down-image:hover{
+	opacity: 0.9;
+}
+
+.top-labels{
+	position: absolute;
+	bottom: 0;
+}
+
+.top-labels p{
+	font-size: 12px;
+}
+
+.top-labels h2{
+	padding: 10px 10px;
+}
+
+.left-image .top-labels{
+	padding-bottom: 25px;
+}
+
+.left-image .top-labels h2{
+	font-size: 32px;
+}
+
+.right-images .upper-image{
+	width: 480px;
+	height: 200px;
+	background-image: url(https://xinhxinh.vn/wp-content/uploads/2021/12/trang-phuc-cho-co-nang-vai-rong.png);
+	margin-bottom: 20px;
+}
+
+.upper-image .top-labels, .down-image .top-labels{
+	padding-bottom: 15px;
+}
+
+.upper-image .top-labels h2, .down-images .down-image h2{
+	font-size: 18px;
+	margin: 0 20px;
+}
+
+.down-images .down-image{
+	width: 230px;
+	height: 200px;
+	margin-right: 20px;
+}
+
+/* cham soc da  */
+.chamsocda{
+	margin-bottom: 50px;
+}
+
+.banner-title{
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.view-all{
+	font-size: 12px;
+	color: #888;
+	position: absolute;
+	right: 0;
+	margin-right: 20px;
+}
+
+.content .left-content{
+	width: 475px;
+	height: auto;
+	margin-right: 30px;
+}
+
+.left-content img{
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.content .left-content .link{
+	font-size: 20px;
+}
+
+.time{
+	color: #999;
+	font-size: 12px;
+	margin:  5px 0 10px 0;
+}
+
+.introduce{
+	font-size: 16px;
+	line-height: 1.8;
+	width: 100%;
+	white-space: pre-wrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    margin-bottom: 10px;
+}
+
+.read-more{
+	color: #2e64e6;
+	font-size: 16px;
+	font-weight: unset;
+}
+
+.read-more:hover{
+	text-decoration: underline;
+}
+
+.content .right-content{
+	display: grid;
+	grid-template-columns: 225px 225px;
+	grid-gap: 30px;
+}
+
+.content .right-content .card img{
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.content .right-content .card a{
+	font-size: 18px;
+}
+
+.lifestyle{
+	margin-bottom: 40px;
+}
+
+.post-content .post-card{
+	width: 475px;
+}
+
+.post-content .post-card img{
+	width: 100%;
+	margin-bottom: 10px;
+	border-bottom: 4px solid #e5e5e5;
+}
+
+.post-content .post-card img:hover{
+	opacity: 0.8;
+	border-bottom: 4px solid #2e64e6;
+	transition: 0.8s;
+}
+
+.routes{
+	margin-bottom: 10px;
+}
+
+.routes a{
+	color: #2e64e6;
+	font-size: 14px;
+}
+
+.routes a:hover{
+	text-decoration: underline;
+}
+
+.post-card{
+	margin-right: 25px;
+}
+
+.post-card .title{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.small-posts{
+	margin-top: 15px;
+}
+
+.small-posts .small-post{
+	margin-bottom: 10px;
+}
+
+.small-posts .small-post img{
+	width: 80px;
+	height: 84px;
+	margin-right: 10px;
+}
+
+.small-posts .small-post div{
+	display: inline-block;
+	margin: 0;
+}
+
+.small-posts .small-post div a{
+	font-size: 16px;
+}
+
+.large-width{
+	height: 80px;
+}
+
+.kieutocdep{
+	margin-bottom: 40px;
+}
+
+.kieutocdep .content .right-content-cards{
+	width: 475px;
+}
+
+.kieutocdep .content .right-content-cards .card{
+	margin-bottom: 15px;
+}
+
+.kieutocdep .content .right-content-cards .card img{
+	width: 140px;
+	margin-right: 15px;
+}
+
+.kieutocdep .content .right-content-cards .card div a{
+	font-size: 18px;
+}
+
+.nail .list-contents{
+	display: grid;
+	grid-template-columns: 305px 305px 305px;
+	grid-gap: 30px;
+}
+
+.list-contents .card img, .content .left-content img, .right-content-cards .card img{
+	width: 100%;
+	margin-bottom: 10px;
+	border-bottom: 4px solid #e5e5e5;
+}
+
+.list-contents .card img:hover, .content .left-content img:hover, .right-content-cards .card img:hover{
+	opacity: 0.8;
+	border-bottom: 4px solid #2e64e6;
+	transition: 0.8s;
+}
+
+.text-size-18{
+	font-size: 18px;
+}
+
+.height-100{
+	height: 100px;
+}
+
+.nail{
+	margin-bottom: 50px;
+}
+
+.about{
+	width: 100%;
+	height: 213px;
+	background-color: #282c36;;
+}
+
+.about .container, .policy .container{
+	width: 1000px;
+	height: 100%;
+	margin: auto;
+	padding-top: 25px;
+}
+
+.about .container h4{
+	margin-bottom: 15px;
+}
+
+.about .container div{
+	font-size: 13px;
+	width: 300px;
+	line-height: 1.75;
+}
+
+.policy{
+	width: 100%;
+	height: 90px;
+}
+
+.policy .container p{
+	width: 475px;
+	color: #999;
+}
+
+.contact{
+	width: 475px;
+	display: inline-block;
+	position: relative;
+}
+
+.contact ul{
+	position: absolute;
+	right: 0;
+}
+
+.contact ul li{
+	margin: 0 5px;
+}
+
+.contact ul li a{
+	color: #999;
+	font-size: 14px;
+}
